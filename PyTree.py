@@ -31,6 +31,17 @@ local = Node("/local", parent=usr)
 # Folders under local.
 bin2 = Node("/bin/", parent=local)
 games = Node("/games", parent=local)
+#Folders under lib.
+apt = Node("/apt", parent=lib)
+dpkg = Node("/dpkg", parent=lib)
+gcc = Node("/gcc", parent=lib)
+Python3 = Node("/python3", parent=lib)
+Python27 = Node("/pytho2.7", parent=lib)
+openssh = Node("/openssh", parent=lib)
+dropbear = Node("/dropbear", parent=lib)
+lsb = Node("/lsb", parent=lib)
+init = Node("/init", parent=lib)
+mime = Node("/mime", parent=lib)
 
 # Printing the list
 print("This is what the Linux Filesystem looks like.\n")
